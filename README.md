@@ -80,5 +80,5 @@ It will scan and extract all the Golang identifier from input file `atoms.txt`, 
       generated package name (default "atom")
 -test
       generate test table for the atom data
-The extracted atom will be case insensitive by default.
 ```
+The extracted atom will be case insensitive by default.
