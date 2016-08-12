@@ -1,5 +1,3 @@
-// +build ignore
-
 package main
 
 import (
@@ -15,7 +13,7 @@ import (
 	"go/scanner"
 	"go/token"
 
-	"git.flier.lu/flier/planb/atom"
+	"github.com/flier/atom"
 )
 
 const maxLineLen = 64
@@ -28,7 +26,7 @@ var tplTable = template.Must(template.New("atom").Funcs(template.FuncMap{
 package {{ .Package }}
 
 import (
-    "git.flier.lu/flier/planb/atom"
+    "github.com/flier/atom"
 )
 
 const (
