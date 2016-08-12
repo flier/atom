@@ -1,4 +1,4 @@
-# Overview
+# Overview ![Travis Build](https://travis-ci.org/flier/atom.svg?branch=master)
 
 Package atom provides integer codes (also known as atoms) for a fixed set of frequently occurring strings
 
