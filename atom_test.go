@@ -108,9 +108,9 @@ func TestAddAtom(t *testing.T) {
 		Convey("add a random atom", func() {
 			s := make([]byte, MaxAtomLen)
 
-			n, err := rand.Read(s)
-			So(err, ShouldBeNil)
-			So(n, ShouldEqual, len(s))
+			for i := 0; i < MaxAtomLen; i++ {
+				s[i] = byte(rand.Uint32())
+			}
 
 			a := addAtom(s)
 
